@@ -8,6 +8,7 @@ for i in range(len(src)-1):
     for j in range(len(src)-1-i):
         if src[j] > src[j+1]:
             src[j], src[j+1] = src[j+1], src[j]
+        # print(src)
 print(src)
 
 

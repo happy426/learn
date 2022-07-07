@@ -1,0 +1,6 @@
+s = input()
+s = s.upper()
+# print(s)
+f = open('result/test01.txt', 'w')
+f.write(s)
+f.close()
