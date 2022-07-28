@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/库包的使用/Matplotlib库/result" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (whale01)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
