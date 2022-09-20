@@ -1,0 +1,12 @@
+2
+test.txt 第1行: 1
+test.txt 第2行: 2
+test.txt 第2行: test.txt 第1行: 1
+2
+test.txt 第3行: 2
+test.txt 第2行: 2
+test.txt 第4行: test.txt 第2行: 2
+3
+test.txt 第5行: 3
+test.txt 第3行: 3
+test.txt 第6行: test.txt 第3行: 3
