@@ -1,6 +1,12 @@
-import time
+class A:
+    def __init__(self, name:str, age):
+        self.name = name
+        self.age = age
 
-a = [1,2,3,4,5,6]
-for i in a:
-    time.sleep(1)
-    print(i)
+    def eat(self):
+        print(self.name + "吃")
+
+
+a = A("1", 2)
+print(a.name)
+a.eat()

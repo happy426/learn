@@ -40,3 +40,10 @@ print(f"反转：{nums}")
 for i in nums:
     print(i)
 
+# 同时获取索引和数值
+list2 = [1, 2, 3, 4, 5, 6]
+for k, v in enumerate(list2):
+    if k % 2 == 0:
+        print("v**2:", v ** 2)
+    else:
+        print("v:", v)
