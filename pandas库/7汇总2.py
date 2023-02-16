@@ -24,10 +24,10 @@ df_inner = pd.merge(df, df1, how='inner')  # 匹配合并，交集
 df_left = pd.merge(df, df1, how='left')  #
 df_right = pd.merge(df, df1, how='right')
 df_outer = pd.merge(df, df1, how='outer')  # 并集
-# print(df_left)
+print(df_left)
 
 df1_append = df1.append(df)
-# print(df1_append)
+print(df1_append)
 
 # df = df.set_index('id')  # 设置索引列
 # print(df.index.values)
@@ -53,7 +53,7 @@ loc,iloc和ix，loc函数按标签值进行提取，iloc按位置进行提取，
 # print(df.iloc[[0, 3], [2, 3]])  # 提取第一行和第四行的第3，4两列
 # print(df['city'].str[0:2])  # 提取前两个字符
 
-
+# print(df['id'].values)
 """
 数据筛选
 与 &
@@ -91,10 +91,10 @@ mean
 # weights = [0, 0, 0, 0, 0.5, 0.5]
 # print(df.sample(n=2, weights=weights))
 # print(df.sample(n=6, replace=False))  # 采样后不放回
-print(df_inner.describe().round(2).T)  # round函数设置显示小数位，T表示转置
+# print(df_inner.describe().round(2).T)  # round函数设置显示小数位，T表示转置
 
 
 """
 数据输出
 """
-df.to_csv('data/df.csv')
+# df.to_csv('data/df.csv')

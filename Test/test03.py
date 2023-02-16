@@ -1,13 +1,8 @@
-def jie(n):
-    if n == 1:
-        return 1
-    else:
-        return n*jie(n-1)
+def zero(s):
+    a = int(s)
+    assert a > 0,"a超出范围"   #这句的意思：如果a确实大于0，程序正常往下运行
+    return a
 
 
-num = 0
-for i in range(1,21):
-    print(i)
-    num = num + jie(i)
-print(num)
-print(jie(1),jie(3), jie(4))
+if __name__ == '__main__':
+    zero("-2")  #但是如果a是小于0的，程序会抛出AssertionError错误，报错为参数内容“a超出范围”
